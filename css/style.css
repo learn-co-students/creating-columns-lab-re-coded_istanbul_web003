@@ -32,6 +32,7 @@ img:hover {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
+  margin-bottom: 15px;
 }
 
 .indifferent {
@@ -49,3 +50,36 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
+
+.column1 {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: stretch;
+  grid-row-gap: 10px;
+  background-color: #22aa44;
+  grid-column-gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 29%;
+  margin-left: 29%;
+}
+
+.large{
+grid-area: 1/1/3/3;
+
+}
+.large img {
+  height: 100%;
+  width: 100%;
+}
+
+.small {
+
+}
+
+.medium {
+
+}
+
