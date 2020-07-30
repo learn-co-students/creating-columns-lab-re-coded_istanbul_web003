@@ -46,6 +46,34 @@ img:hover {
   background-color: #dd4444;
 }
 
-/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
+/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.column { 
+  display:flexbox;
+  width:48%;
+  justify-content: space-around;
+
+}
 /* create your tile classes! we recommend .small .med .large */
+.small{
+width:30%;
+height:auto;
+
+}
+.med{
+width:60%;
+height:auto;
+}
+.large{
+ width:80%;
+ height:auto; 
+}
+
+#med-left{
+float:left;
+}
+
+#med-right{
+float:right;
+
+}
